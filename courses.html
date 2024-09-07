@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Certificación ECFMG y USMLE</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div id="navbar"></div>
+
+    <!-- Content Wrapper -->
+    <div class="content">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12 col-md-8 mx-auto">
+            <h2>Cursos y Capacitación</h2>
+
+            <h4>Cursos Ofrecidos por PIMG</h4>
+
+            <p>
+              <strong>Preparación para el USMLE Step 1 (PIMG Academy):</strong>
+              PIMG Latino Nicaragua ofrece un curso intensivo para la
+              preparación del USMLE Step 1 a través de PIMG Academy. Este curso
+              está diseñado para médicos internacionales y consta de clases en
+              vivo durante 6 meses, enfocadas en la revisión del contenido
+              necesario para aprobar este examen crucial.
+            </p>
+
+            <ul>
+              <li><strong>Duración:</strong> 6 meses</li>
+              <li>
+                <strong>Beneficios:</strong>
+                <ul>
+                  <li>Revisión completa del contenido del USMLE Step 1.</li>
+                  <li>Clases intensivas diarias con mentores expertos.</li>
+                  <li>Acceso a un grupo de estudio privado.</li>
+                  <li>
+                    Estrategias de programación y resolución de preguntas.
+                  </li>
+                  <li>
+                    Reuniones mensuales sobre temas como el proceso USMLE,
+                    ECFMG, entrevistas y trámites de visa.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Inscripción:</strong> Se puede inscribir a través del
+                portal de PIMG.
+              </li>
+            </ul>
+
+            <p>
+              <strong>Curso de Investigación (9 Semanas):</strong> Este curso
+              está diseñado para ofrecer una formación integral en investigación
+              médica, incluyendo meta-análisis y entrenamiento en programas
+              estadísticos.
+            </p>
+
+            <ul>
+              <li><strong>Duración:</strong> 9 semanas</li>
+              <li><strong>Costo:</strong> $329 USD</li>
+              <li>
+                <strong>Inscripción:</strong> El curso está disponible a un
+                precio reducido, y los participantes pueden inscribirse a través
+                del enlace proporcionado por PIMG. Al completar el pago, se
+                añade al participante a un grupo dedicado en WhatsApp para
+                recibir actualizaciones.
+              </li>
+            </ul>
+
+            <p>
+              <strong>Curso de Inglés para Profesionales de la Salud:</strong>
+              PIMG también ofrece cursos de inglés especializados para médicos
+              que se preparan para trabajar en entornos clínicos de habla
+              inglesa. Estos cursos se enfocan en la terminología médica y la
+              comunicación efectiva con pacientes.
+            </p>
+
+            <ul>
+              <strong>Duración:</strong>
+              Varía según el nivel y la necesidad del participante.
+            </ul>
+            <ul>
+              <strong>Inscripción:</strong>
+              Disponible a través de diferentes instituciones recomendadas por
+              PIMG, como escuelas de adultos, colegios, y bibliotecas.
+            </ul>
+
+            <hr />
+
+            <h4>Certificaciones Adicionales</h4>
+
+            <p>
+              <strong>Certificación de Asistente Médico:</strong> PIMG facilita
+              la obtención de la certificación de Asistente Médico, una
+              credencial que puede mejorar las oportunidades de empleo para
+              médicos internacionales en los Estados Unidos.
+            </p>
+
+            <ul>
+              <li><strong>Duración:</strong> 6 meses</li>
+              <li>
+                <strong>Costo:</strong> Relativamente bajo, entre $300 y $1,500
+                USD.
+              </li>
+              <li>
+                <strong>Oportunidades de Empleo:</strong> Los asistentes médicos
+                pueden trabajar en cualquier estado, con salarios que varían
+                entre $30,000 y $50,000 USD al año.
+              </li>
+            </ul>
+
+            <p>
+              <strong>Certificación en Flebotomía:</strong> Este curso
+              proporciona la certificación en flebotomía, una habilidad valiosa
+              para aquellos que buscan trabajar en laboratorios o como parte del
+              equipo clínico en hospitales.
+            </p>
+
+            <ul>
+              <li><strong>Duración:</strong> 4 semanas</li>
+              <li><strong>Costo:</strong> $500 USD</li>
+              <li>
+                <strong>Requisitos:</strong> Conocimiento básico de anatomía y
+                fisiología.
+              </li>
+            </ul>
+
+            <p>
+              <strong>Certificación en Soporte Vital Avanzado (ACLS):</strong>
+              El curso de ACLS es esencial para médicos que buscan
+              especializarse en emergencias médicas. La certificación incluye
+              entrenamiento en técnicas avanzadas de reanimación cardiopulmonar
+              y manejo de emergencias cardiovasculares.
+            </p>
+
+            <ul>
+              <li><strong>Duración:</strong> 2 días intensivos</li>
+              <li><strong>Costo:</strong> $300 USD</li>
+              <li>
+                <strong>Requisitos:</strong> Certificación previa en Soporte
+                Vital Básico (BLS).
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <script>
+      // Load Navbar
+      fetch("navbar.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("navbar").innerHTML = data;
+        });
+
+      // Load Footer
+      fetch("footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

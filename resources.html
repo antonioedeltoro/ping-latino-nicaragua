@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Certificación ECFMG y USMLE</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div id="navbar"></div>
+
+    <!-- Content Wrapper -->
+    <div class="content">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12 col-md-8 mx-auto">
+            <h2>Apoyo y Recursos</h2>
+
+            <h4>
+              Enlaces a Grupos de WhatsApp, LinkedIn, y Otras Comunidades en
+              Línea:
+            </h4>
+
+            <p>
+              PIMG Latino Nicaragua ofrece diversos grupos de apoyo a través de
+              plataformas como WhatsApp y LinkedIn, donde los miembros pueden
+              conectarse, compartir recursos, y apoyarse mutuamente en su camino
+              hacia la certificación ECFMG y la práctica médica en los Estados
+              Unidos.
+            </p>
+
+            <ul>
+              <li>
+                <strong>WhatsApp Grupos de Apoyo:</strong>
+                <ul>
+                  <li>
+                    <strong>PIMG Latino:</strong>
+                    <a
+                      href="https://chat.whatsapp.com/IPvL6GdBzKMBehjr3gtgCz"
+                      target="_blank"
+                      >Únete al Grupo</a
+                    >
+                  </li>
+                  <li>
+                    <strong>PIMG Madres: </strong
+                    ><a
+                      href="https://chat.whatsapp.com/LtUyyW2ktHC1ZHN0WFC0dr"
+                      target="_blank"
+                      >Únete al Grupo</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>LinkedIn:</strong>
+                <ul>
+                  <li>
+                    <strong>TIC.MD - LinkedIn Grupo:</strong>
+                    <a
+                      href="https://www.linkedin.com/company/tic-md/"
+                      target="_blank"
+                      >Visita el Grupo</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <p>
+              Estos grupos son espacios clave donde los miembros pueden
+              intercambiar experiencias, hacer preguntas, y obtener apoyo de
+              colegas que están en etapas similares del proceso.
+            </p>
+
+            <hr />
+
+            <h4>
+              Información sobre cómo obtener la verificación de credenciales por
+              parte de las universidades en Nicaragua:
+            </h4>
+
+            <p>
+              La verificación de credenciales es un paso crucial en el proceso
+              de certificación ECFMG. En Nicaragua, varias universidades como
+              UNAN León, UNAN Managua, y UAM ofrecen servicios de verificación
+              en línea.
+            </p>
+
+            <ul>
+              <li>
+                <strong>UNAN León:</strong>
+                <ul>
+                  <li>
+                    <strong>Proceso:</strong> Una vez que el ECFMG se comunica
+                    con la universidad, los estudiantes deben contactar a
+                    Martita, quien maneja las solicitudes de traducción y
+                    verificación de documentos. Es necesario pagar una tarifa de
+                    $50 para que la universidad envíe los documentos requeridos.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>UNAN Managua:</strong>
+                <ul>
+                  <li>
+                    <strong>Proceso:</strong> La universidad realiza el proceso
+                    de verificación en línea. Después de que el ECFMG envía la
+                    solicitud, los estudiantes deben contactar a la Decanatura,
+                    específicamente a la Lic. Hayde, quien se encarga del
+                    trámite.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <hr />
+
+            <h4>
+              Guía sobre cómo obtener el Certificado de Buena Conducta en
+              Nicaragua:
+            </h4>
+
+            <p>
+              El Certificado de Buena Conducta es un documento necesario para
+              completar la certificación ECFMG y puede ser requerido para otros
+              procesos de residencia médica. En Nicaragua, los procedimientos
+              para obtener este certificado pueden variar con el tiempo, por lo
+              que es importante mantenerse actualizado.
+            </p>
+
+            <ul>
+              <li>
+                <strong>Pasos Generales:</strong>
+                <ol>
+                  <li>
+                    <strong>Contacto Inicial:</strong> Los médicos deben
+                    contactar a las autoridades correspondientes en Nicaragua
+                    para iniciar el proceso.
+                  </li>
+                  <li>
+                    <strong>Documentación:</strong> Se requiere presentar
+                    documentos de identidad y posiblemente otros documentos que
+                    certifiquen la buena conducta del solicitante.
+                  </li>
+                  <li>
+                    <strong>Tramitación:</strong> Una vez presentados los
+                    documentos, las autoridades emiten el certificado. Este
+                    proceso puede variar dependiendo de las actualizaciones en
+                    las regulaciones locales.
+                  </li>
+                </ol>
+              </li>
+            </ul>
+            <p>
+              Es recomendable seguir las guías proporcionadas por PIMG Nicaragua
+              y, en caso de dificultades, contactar a la organización para
+              recibir apoyo adicional.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <script>
+      // Load Navbar
+      fetch("navbar.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("navbar").innerHTML = data;
+        });
+
+      // Load Footer
+      fetch("footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

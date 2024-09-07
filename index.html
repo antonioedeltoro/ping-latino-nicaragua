@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PIMG Latino Nicaragua</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div id="navbar"></div>
+
+    <!-- Content Wrapper -->
+    <div class="content">
+      <div
+        class="jumbotron jumbotron-fluid bg-primary text-white text-center p-5"
+      >
+        <div class="container">
+          <h1 class="display-4">Bienvenidos a PIMG Latino Nicaragua</h1>
+          <p class="lead text-center">
+            Apoyando a médicos internacionales en su camino hacia la
+            certificación ECFMG y el USMLE.
+          </p>
+          <a href="about.html" class="btn btn-light btn-lg">Conócenos más</a>
+        </div>
+      </div>
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12 col-md-8 mx-auto">
+            <h2>Nuestra Misión</h2>
+            <p>
+              PIMG Latino Nicaragua es una organización comprometida con el
+              empoderamiento y el apoyo de los médicos internacionales graduados
+              (PIMG) de América Latina, con un enfoque particular en aquellos de
+              Nicaragua, en su camino hacia la certificación de la Comisión
+              Educativa para Graduados Médicos Extranjeros (ECFMG) y el éxito en
+              los exámenes de la Junta de Licencia Médica de los Estados Unidos
+              (USMLE). Nuestra misión es ayudar a estos profesionales a superar
+              las barreras y desafíos que puedan enfrentar en su transición
+              hacia el ejercicio de la medicina en los Estados Unidos,
+              brindándoles las herramientas y el conocimiento necesarios para
+              triunfar.
+            </p>
+            <p>
+              En PIMG Latino Nicaragua, nos dedicamos a proporcionar una
+              variedad de recursos educativos integrales diseñados para abordar
+              las necesidades específicas de los graduados de medicina de
+              América Latina. Estos recursos incluyen cursos de preparación para
+              los exámenes USMLE, talleres interactivos, materiales de estudio
+              actualizados y sesiones de tutoría personalizadas, todas
+              impartidas por profesionales con experiencia en el ámbito médico y
+              educativo. Además, ofrecemos guías prácticas sobre los procesos de
+              solicitud de la certificación ECFMG, así como sobre los requisitos
+              y regulaciones necesarios para obtener licencias médicas en los
+              Estados Unidos.
+            </p>
+            <p>
+              Nuestra organización también entiende la importancia de una red de
+              apoyo sólida. Por ello, hemos construido una comunidad vibrante de
+              médicos graduados que comparten experiencias, consejos y
+              motivación, creando un entorno en el que los miembros pueden
+              conectarse, aprender y crecer profesionalmente. A través de
+              eventos de networking, conferencias y programas de mentoría,
+              facilitamos el acceso a oportunidades clave que pueden marcar una
+              diferencia significativa en el avance de sus carreras.
+            </p>
+            <p>
+              Además, PIMG Latino Nicaragua no solo se enfoca en la
+              certificación, sino también en el desarrollo continuo de
+              habilidades profesionales. Ofrecemos una gama de programas de
+              desarrollo profesional que incluyen certificaciones adicionales,
+              acceso a tecnología médica de vanguardia y oportunidades de
+              capacitación en temas relevantes para el ejercicio de la medicina
+              en los Estados Unidos. Con ello, buscamos cerrar la brecha entre
+              la formación médica en América Latina y las expectativas de la
+              práctica médica en el extranjero, promoviendo así la excelencia y
+              la competitividad de nuestros miembros en un entorno global.
+            </p>
+            <p>
+              En resumen, PIMG Latino Nicaragua se posiciona como un aliado
+              esencial para los médicos internacionales de América Latina que
+              desean avanzar en sus carreras y cumplir su sueño de ejercer la
+              medicina en los Estados Unidos, ofreciendo no solo recursos
+              educativos de alta calidad, sino también un apoyo integral y
+              personalizado a lo largo de todo el proceso.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <script>
+      // Load Navbar
+      fetch("navbar.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("navbar").innerHTML = data;
+        });
+
+      // Load Footer
+      fetch("footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PIMG Latino Nicaragua</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div id="navbar"></div>
+
+    <!-- Content Wrapper -->
+    <div class="content">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12 col-md-8 mx-auto">
+            <h2>Introducción a PIMG Nicaragua</h2>
+
+            <h4>Historia y Misión:</h4>
+
+            <p>
+              PIMG Latino Nicaragua es una organización dedicada a apoyar a
+              médicos internacionales en su camino hacia la certificación ECFMG
+              y la preparación para los exámenes USMLE. Fundada con el propósito
+              de cerrar la brecha entre la educación médica en América Latina y
+              los requisitos para ejercer la medicina en los Estados Unidos,
+              PIMG Latino Nicaragua se ha establecido como un recurso esencial
+              para los médicos que buscan avanzar en sus carreras y obtener
+              reconocimiento internacional.
+            </p>
+
+            <h4>Importancia de la Certificación ECFMG:</h4>
+
+            <p>
+              La certificación ECFMG (Educational Commission for Foreign Medical
+              Graduates) es un requisito esencial para cualquier médico
+              internacional que desee practicar la medicina en los Estados
+              Unidos. PIMG Latino Nicaragua proporciona a sus miembros los
+              recursos y la orientación necesarios para superar este proceso
+              desafiante, asegurando que estén completamente preparados para los
+              exámenes USMLE y otros requisitos de certificación.
+            </p>
+
+            <h4>Servicios y Beneficios:</h4>
+
+            <p>
+              A través de una gama de cursos especializados, asesoramiento
+              personalizado y una red sólida de apoyo comunitario, PIMG Latino
+              Nicaragua empodera a sus miembros para que logren el éxito en su
+              camino profesional. La organización también ofrece oportunidades
+              de desarrollo profesional y acceso a una comunidad de colegas y
+              mentores que comparten los mismos objetivos y desafíos.
+            </p>
+
+            <hr />
+
+            <h2>Líderes</h2>
+
+            <h4>Dra. Mariaugusta Montealegre:</h4>
+
+            <p>
+              La Dra. Mariaugusta Montealegre es una de las figuras clave de
+              PIMG Latino Nicaragua. Con una amplia experiencia en la medicina
+              internacional y un profundo compromiso con la educación, la Dra.
+              Montealegre ha desempeñado un papel crucial en guiar a los médicos
+              a través del complejo proceso de certificación ECFMG. Su liderazgo
+              y visión han sido fundamentales para el éxito de la organización.
+            </p>
+
+            <h4>Dr. Gerald Chavarria:</h4>
+
+            <p>
+              El Dr. Gerald Chavarria aporta una riqueza de conocimiento y
+              experiencia al equipo de liderazgo de PIMG Latino Nicaragua. Con
+              una carrera destacada en la medicina y una pasión por la
+              enseñanza, el Dr. Chavarria se dedica a ayudar a los médicos
+              internacionales a alcanzar sus metas profesionales. Su enfoque en
+              la excelencia y su capacidad para motivar a otros son una
+              inspiración para todos los miembros de la organización.
+            </p>
+
+            <h4>Dra. Harlen Molina:</h4>
+            <p>
+              La Dra. Harlen Molina es reconocida por su dedicación y compromiso
+              con la misión de PIMG Latino Nicaragua. Como líder, ha sido
+              instrumental en la creación de programas de capacitación que han
+              ayudado a numerosos médicos a prepararse para los exámenes USMLE y
+              obtener la certificación ECFMG. Su experiencia y empatía hacen de
+              ella un pilar esencial en la comunidad de PIMG.
+            </p>
+            <hr />
+            <h2>Testimonios</h2>
+            <h4>Testimonio 1</h4>
+            <p>
+              <i>
+                "Gracias a PIMG Latino Nicaragua, pude navegar el proceso de
+                certificación ECFMG con confianza. Los recursos y el apoyo que
+                recibí fueron invaluables y me ayudaron a lograr mi objetivo de
+                ejercer la medicina en los Estados Unidos."</i
+              >
+              <br /><br />- Dr. Juan Pérez, miembro de PIMG.
+            </p>
+            <h4>Testimonio 2</h4>
+            <p>
+              <i
+                >"La orientación y el asesoramiento que recibí de los líderes de
+                PIMG fueron fundamentales para mi éxito en los exámenes USMLE.
+                No solo me sentí preparado, sino también apoyado por una
+                comunidad que entiende los desafíos que enfrentamos como médicos
+                internacionales."
+              </i>
+              <br /><br />- Dra. Ana Martínez, miembro de PIMG.
+            </p>
+            <h4>Testimonio 3</h4>
+            <p>
+              <i
+                >"PIMG Latino Nicaragua me proporcionó las herramientas y la
+                confianza que necesitaba para superar los exámenes ECFMG. La
+                comunidad y los mentores son excepcionales, y estoy agradecido
+                por el impacto positivo que han tenido en mi carrera."</i
+              >
+              <br /><br />- Dr. Luis Fernández, miembro de PIMG.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <script>
+      // Load Navbar
+      fetch("navbar.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("navbar").innerHTML = data;
+        });
+
+      // Load Footer
+      fetch("footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>
